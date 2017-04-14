@@ -38,7 +38,8 @@ describe('Stack', () => {
 
   describe('#clear', () => {
     it('should return an empty array', () => {
-      assert.equal(0, stack.clear().length)
+      let s = stack.clear()
+      assert.equal(0, s.length)
     })
   })
 
