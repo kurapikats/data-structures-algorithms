@@ -1,0 +1,28 @@
+{
+  "name": "js-data-structures",
+  "version": "1.0.0",
+  "description": "A collection of Javascript Data Structures and Algorithms",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurapikats/data-structures-algorithms.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Data-Structures",
+    "Algorithms"
+  ],
+  "author": "Jesus B. Nana <jesus.nana@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurapikats/data-structures-algorithms/issues"
+  },
+  "homepage": "https://github.com/kurapikats/data-structures-algorithms#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
