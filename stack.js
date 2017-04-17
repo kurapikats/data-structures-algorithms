@@ -4,11 +4,11 @@
  * @author Jesus B. Nana <jesus.nana@gmail.com>
  */
 let Stack = (() => {
-  const items = new WeakMap() 
+  const items = new WeakMap()
 
   class Stack {
     constructor() {
-      items.set(this, []) 
+      items.set(this, [])
     }
 
     push(element) {
@@ -42,13 +42,13 @@ let Stack = (() => {
       return s.length
     }
 
-    print() {
+    toString() {
       let s = items.get(this)
-      console.log(s.toString())
+      return s.toString()
     }
   }
 
   return Stack
 })()
 
-module.exports = Stack 
+module.exports = Stack
